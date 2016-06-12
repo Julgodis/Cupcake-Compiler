@@ -62,6 +62,21 @@ Options:
   -m --module <file>     Include module
 ```
 
+# Documentation #
+
+The release includes a few examples, but there is no other documentation available to Cupcake. The game example is the invaders game Jonathan Blow showed in the first few demos. To test the examples just type this in to the console.
+```
+cupcake examples/EXAMPLE_NAME/main.jai
+```
+
+Because the specification for JAI is not complete, writing a documention is stupid. Though some nice people have written stuff about the language that could be used as documention. 
+
+[Jai Primer](https://sites.google.com/site/jailanguageprimer/) by Jorge Rodríguez.
+
+[Jai Programming Language – Resources and Information](https://sites.google.com/site/jailanguageprimer/) by Inductive.
+
+After using Cupcake if you have some nice code examples please send them in [support@jonathanwase.se](mailto://support@jonathanwase.se).
+
 # Issues #
 The goal is to make Cupcake as great as possible and to do that i need your help. If you find any problems/bugs please report them to me, don't forget to send exemple code that demonstrates the problem. You can use the github issue section or send me an email at [support@jonathanwase.se](mailto://support@jonathanwase.se) (use the email if you don't want the demonstration source code to be public).
 
