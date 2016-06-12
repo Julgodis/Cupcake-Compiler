@@ -89,7 +89,7 @@ For now I have decided to not release the source code. Why is because I don't kn
 Not so useful when you have access to #modify and #body_text. This feature will be implemented later if Jonathan Blow uses it in a new demo.
 
 ##### Double multi-return #####
-Double multi-return is a special case that is not yet implemented. The code below show where the problem occurs.
+Double multi-return is a special case that does not work with v0.1-alpha. The code below show how the problem occurs. Will be fixed in the next version.
 ```jai
 VeryGoodProcedure :: () -> s64, s64 {
      return 13, 37
@@ -104,7 +104,7 @@ VeryBadProcedure :: () -> s64, s64 {
 In one of JAIs demos, Jonathan Blow is using $$ to mean values can be baked and $$ $$ to mean requiers values to be baked. In the Q&A part he talks about maybe changing it to $ and $$. Cupcake is using the new changed syntax.
 
 ##### Self-browsing code #####
-I have not had the time. (:()
+I have not had the time. :bowtie:
 
 # Licence #
 
