@@ -68,6 +68,7 @@ The goal is to make Cupcake as great as possible and to do that i need your help
 # Source Code? #
 For now I have decided to not release the source code. Why is because I don't know if it would be fair to Jonathan Blow (everyone creating their own version of JAI) and I am not very proud of the code. There is a huge amount of unnecessery code that could be removed, Cupcake is around 45k LOC. 
 
+- - - -
 ### Not implemented / Changed ###
 ##### Check calls #####
 Not so useful when you have access to #modify and #body_text. This feature will be implemented later if Jonathan Blow uses it in a new demo.
