@@ -2,11 +2,19 @@
 ![Cupcake](logo.png "Title is optional")
 
 # Cupcake
-Cupcake is a compiler for Jonathan Blows new programming language **JAI**. The compiler is build from the ideas and temporary specification that Blow gives in his youtube/twitch [videos](https://www.youtube.com/user/jblow888/videos). Cupcake has almost everything that Jonathan Blow has shown in his videos so far (2016-06-12). 
+Cupcake is a compiler for Jonathan Blows new programming language **JAI**. The compiler is build from the ideas and temporary specification that Blow gives in his youtube/twitch [videos](https://www.youtube.com/user/jblow888/videos). Cupcake has almost implemented everything that Jonathan Blow has shown in his videos so far (2016-06-12). 
 
-Both me and Cupcake has no association with Jonathan Blow. The experience you have with Cupcake should not be reflect towards JAI and your opinon of it. Cupcake is a hobby project of my, to let me learn how i real compiler works from source code to machine code.
+Both Cupcake and me has no association with Jonathan Blow or JAIs development. The experience you have with Cupcake should not be reflect towards JAI and your opinon of it, **_Cupcake is not JAI_**. Cupcake is my hobby project, create for me to learn how i real compiler works and how programs goes from source code to machine code.
 
-Cupcake, as JAI, does not generate machine code (yet). There are two way to execute your code, run the code in the compiler itself (bytecode) or compile/convert your JAI code to CPP. Currently a CPP file will always be generate and there is no way to turn it off. Output folder for the CPP file is in '%EXECUTABLE_PATH&/output/output.cpp', the folder can be changed by using the compiler introspection.
+Cupcake, as JAI, does not generate machine code (yet). There are two way to execute your code, run the code in the compiler itself  through bytecode (#run) or compile/convert your JAI code to C++ code. Currently a C++ file will always be generate and there is no way to turn it off. Output folder for the C++ file is in `%EXECUTABLE_PATH%/output/output.cpp`, the folder can be changed by using the compiler introspection feature.
+
+### Platform support ###
+
+|| **Status** |
+|---|---|
+|**Windows 32bit**         |[v0.1-alpha](http://)|
+
+More platform will be added later. There is a lot of windows specific code in the first release so it will take a while to port everthing. 
 
 ### Features ###
 
@@ -17,7 +25,7 @@ Video  | Implemented Status | Tested Status
 [SOA, composition](https://www.youtube.com/watch?v=ZHqFrNyLlpA)  | Everything implemented | Good enough
 [Run-Time (and Compile-Time) Type Information](https://www.youtube.com/watch?v=JoNkttD_MUs)  | Everything but check calls and embedded systems | Good enough
 [Arguments and Return Values](https://www.youtube.com/watch?v=CttIYXCUeVY)  | Everything but double multi-return and #must | Good enough
-Polymorphic Procedures [Part 1](https://www.youtube.com/watch?v=BwqeFrlSpuI) & [Part 2](https://www.youtube.com/watch?v=7Fsy2WaxLOY)  | Everything  | Good enough
+Polymorphic Procedures [Part 1](https://www.youtube.com/watch?v=BwqeFrlSpuI) & [Part 2](https://www.youtube.com/watch?v=7Fsy2WaxLOY)  | Everything implemented | Good enough
 [Implicit Context](https://www.youtube.com/watch?v=ciGQCP6HgqI)  | Everything implemented | Good enough
 [Bounds check, here strings, overloading](https://www.youtube.com/watch?v=4h-0Sc2jK88)  | Everything implemented | Good enough
 [Self-browsing code, compiler message loop, workspaces](https://www.youtube.com/watch?v=OHZwYYW9koI)  | Everything but self-browsing code | Good enough
