@@ -10,16 +10,16 @@ Both Cupcake and me has no association with Jonathan Blow or JAIs development. T
 
 || **Status** |
 |---|---|
-|**Windows 32bit**         |[v0.1-alpha](http://)|
+|**Windows 32bit**         |[v0.1-alpha](https://github.com/Julgodis/Cupcake-Compiler/releases/tag/v0.1-alpha)|
 
 More platforms will be supported later. There is a lot of windows specific code in this release and it will take a while to port everything over. 
 
 # Download #
-Here is the latest release: [Cupcake v0.1-alpha](http://).
+Here is the latest release: [Cupcake v0.1-alpha](https://github.com/Julgodis/Cupcake-Compiler/releases/tag/v0.1-alpha).
 
 Version  | Date | Link
 ------------- | ------------- | ------------- 
-v0.1-alpha  | 2016-06-12 | [Download](http://)
+v0.1-alpha  | 2016-06-12 | [Download](https://github.com/Julgodis/Cupcake-Compiler/releases/tag/v0.1-alpha)
 
 # Usage #
 1. Download the latest release.
@@ -80,7 +80,7 @@ Polymorphic Procedures [Part 1](https://www.youtube.com/watch?v=BwqeFrlSpuI) & [
 
 
 # Issues #
-The goal is to make Cupcake as great as possible and to do that i need your help. If you find any problems/bugs please report them to me, don't forget to send exemple code that demonstrates the problem. You can use the github issue section or send me an email at [support@jonathanwase.se](mailto://support@jonathanwase.se) (use the email if you don't want the demonstration source code to be public).
+The goal is to make Cupcake as great as possible and to do that i need your help. If you find any problems/bugs please report them and don't forget to send exemple code that demonstrates the problem. You can use the github issue section or send me an email at [support@jonathanwase.se](mailto://support@jonathanwase.se) (use the email if you don't want the demonstration source code to be public).
 
 # Source Code? #
 For now I have decided to not release the source code. Why, because I don't know if it would be fair to Jonathan Blow (everyone creating their own version of JAI) and I am not very proud of the quality of the code. There is a huge amount of unnecessery code that could and should be removed, Cupcake v0.1-alpha is around 45k LOC. 
