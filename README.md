@@ -2,9 +2,9 @@
 ![Cupcake](logo.png "Title is optional")
 
 # Cupcake
-Cupcake is a compiler for Jonathan Blows new programming language **JAI**. The compiler is build from the ideas and temporary specification that Blow has given in his youtube/twitch [videos](https://www.youtube.com/user/jblow888/videos). Cupcake has almost everything implemented that Jonathan Blow has shown in his videos so far (2016-06-12). 
+Cupcake is a compiler for Jonathan Blows new programming language **JAI**. The compiler is built from the ideas and temporary specification that Blow has given in his Youtube and Twitch [videos](https://www.youtube.com/user/jblow888/videos). Cupcake has almost everything implemented that Jonathan Blow has shown in his videos so far (2016-06-12). 
 
-Both Cupcake and me has no association with Jonathan Blow or JAIs development. The experience you have with Cupcake should not be reflected towards JAI and your opinon of it, **_Cupcake is not JAI_**. Cupcake is my hobby project, create for me to learn how i real compiler works and how programs goes from source code to machine code.
+Both Cupcake and me has no association with Jonathan Blow or JAIs development. The experience you have with Cupcake should not be reflected towards JAI and your opinion of it, **_Cupcake is not JAI_**. Cupcake is my hobby project, create for me to learn how i real compiler works and how programs goes from source code to machine code.
 
 ### Platform support ###
 
@@ -41,7 +41,7 @@ Options:
   -m --module <file>     Include module
 ```
 
-Cupcake, as JAI, does not generate machine code (yet). There are two way to execute your code, run the code in the compiler itself  through bytecode (#run) or compile/convert your JAI code to C++ code. Currently a C++ file will always be generate and there is no way to turn it off. Output folder for the C++ file is in `%EXECUTABLE_PATH%/output/output.cpp`, the location can be changed by using the compiler workspace feature.
+Cupcake, as JAI, does not generate machine code (yet). There are two ways to execute your code, run the code in the compiler itself  through bytecode (#run) or compile/convert your JAI code to C++ code. Currently a C++ file will always be generated and there is no way to turn it off. The output location for the C++ file is `%EXECUTABLE_PATH%/output/output.cpp`, the location can be changed by using the compiler workspace feature.
 
 # Documentation #
 
@@ -50,13 +50,13 @@ The release includes a few examples, but there is no other documentation availab
 cupcake examples/EXAMPLE_NAME/main.jai
 ```
 
-Because the specification for JAI is not complete, writing a documention is stupid. Though some nice people have written stuff about the language that could be used as documention. 
+Because the specification for JAI is not complete, writing a documentation is stupid. Though some nice people have written stuff about the language that could be used as documentation. 
 
 [Jai Primer](https://sites.google.com/site/jailanguageprimer/) by Jorge Rodríguez.
 
 [Jai Programming Language – Resources and Information](https://sites.google.com/site/jailanguageprimer/) by Inductive.
 
-After using Cupcake if you have some nice code examples please send them in [support@jonathanwase.se](mailto://support@jonathanwase.se) and I'll added them to the exemples folder.
+After using Cupcake, if you have any nice code examples, please send them to [support@jonathanwase.se](mailto://support@jonathanwase.se) and I added them to the examples folder.
 
 
 ### Features ###
@@ -80,10 +80,10 @@ Polymorphic Procedures [Part 1](https://www.youtube.com/watch?v=BwqeFrlSpuI) & [
 
 
 # Issues #
-The goal is to make Cupcake as great as possible and to do that i need your help. If you find any problems/bugs please report them and don't forget to send exemple code that demonstrates the problem. You can use the github issue section or send me an email at [support@jonathanwase.se](mailto://support@jonathanwase.se) (use the email if you don't want the demonstration source code to be public).
+The goal is to make Cupcake as great as possible and to do that i need your help. If you find any problems/bugs, please report them and don't forget to send example code that demonstrates the problem. You can use the Github issue section or send me an email at [support@jonathanwase.se](mailto://support@jonathanwase.se) (use the email if you don't want the demonstration source code to be public).
 
 # Source Code? #
-For now I have decided to not release the source code. Why, because I don't know if it would be fair to Jonathan Blow (everyone creating their own version of JAI) and I am not very proud of the quality of the code. There is a huge amount of unnecessery code that could and should be removed, Cupcake v0.1-alpha is around 45k LOC. 
+For now I have decided to not release the source code. Why, because I don't know if it would be fair to Jonathan Blow (everyone creating their own version of JAI) and I am not very proud of the quality of the code. There is a huge amount of unnecessary code that could and should be removed, Cupcake v0.1-alpha is around 45k LOC. 
 
 # Licence #
 
