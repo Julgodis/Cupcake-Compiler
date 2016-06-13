@@ -6,8 +6,6 @@ Cupcake is a compiler for Jonathan Blows new programming language **JAI**. The c
 
 Both Cupcake and me has no association with Jonathan Blow or JAIs development. The experience you have with Cupcake should not be reflected towards JAI and your opinon of it, **_Cupcake is not JAI_**. Cupcake is my hobby project, create for me to learn how i real compiler works and how programs goes from source code to machine code.
 
-Cupcake, as JAI, does not generate machine code (yet). There are two way to execute your code, run the code in the compiler itself  through bytecode (#run) or compile/convert your JAI code to C++ code. Currently a C++ file will always be generate and there is no way to turn it off. Output folder for the C++ file is in `%EXECUTABLE_PATH%/output/output.cpp`, the folder can be changed by using the compiler introspection feature.
-
 ### Platform support ###
 
 || **Status** |
@@ -62,6 +60,8 @@ Options:
   -m --module <file>     Include module
 ```
 
+Cupcake, as JAI, does not generate machine code (yet). There are two way to execute your code, run the code in the compiler itself  through bytecode (#run) or compile/convert your JAI code to C++ code. Currently a C++ file will always be generate and there is no way to turn it off. Output folder for the C++ file is in `%EXECUTABLE_PATH%/output/output.cpp`, the folder can be changed by using the compiler introspection feature.
+
 # Documentation #
 
 The release includes a few examples, but there is no other documentation available to Cupcake. The game example is the invaders game Jonathan Blow showed in the first few demos. To test the examples just type this in to the console.
@@ -82,29 +82,6 @@ The goal is to make Cupcake as great as possible and to do that i need your help
 
 # Source Code? #
 For now I have decided to not release the source code. Why is because I don't know if it would be fair to Jonathan Blow (everyone creating their own version of JAI) and I am not very proud of the code. There is a huge amount of unnecessery code that could be removed, Cupcake is around 45k LOC. 
-
-- - - -
-### Not implemented / Changed ###
-##### Check calls #####
-Not so useful when you have access to #modify and #body_text. This feature will be implemented later if Jonathan Blow uses it in a new demo.
-
-##### Double multi-return #####
-Double multi-return is a special case that does not work with v0.1-alpha. The code below show how the problem occurs. Will be fixed in the next version.
-```jai
-VeryGoodProcedure :: () -> s64, s64 {
-     return 13, 37
-}
-
-VeryBadProcedure :: () -> s64, s64 {
-     return VeryGoodProcedure() // ERROR
-}
-```
-
-##### Auto Bake #####
-In one of JAIs demos, Jonathan Blow is using $$ to mean values can be baked and $$ $$ to mean requiers values to be baked. In the Q&A part he talks about maybe changing it to $ and $$. Cupcake is using the new changed syntax.
-
-##### Self-browsing code #####
-I have not had the time. :bowtie:
 
 # Licence #
 
