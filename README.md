@@ -112,4 +112,4 @@ SOFTWARE.
 - - - -
 
 ####### English/Language #######
-I am not a native English speaker and would very much appreciate if you find any grammatical or spelling errors in this text or in the program itself.
+I am not a native English speaker and would very much appreciate if you find any grammatical and/or spelling errors in this text, or in the program itself.
