@@ -4,7 +4,7 @@
 # Cupcake
 Cupcake is a compiler for Jonathan Blows new programming language **JAI**. The compiler is built from the ideas and temporary specification that Blow has given in his Youtube and Twitch [videos](https://www.youtube.com/user/jblow888/videos). Cupcake has almost everything implemented that Jonathan Blow has shown in his videos so far (2016-06-12). 
 
-Both Cupcake and me has no association with Jonathan Blow or JAIs development. The experience you have with Cupcake should not be reflected towards JAI and your opinion of it, **_Cupcake is not JAI_**. Cupcake is my hobby project, create for me to learn how i real compiler works and how programs goes from source code to machine code.
+Both Cupcake and me has no association with Jonathan Blow or JAIs development. The experience you have with Cupcake should not be reflected towards JAI and your opinion of it, **_Cupcake is not JAI_**. Cupcake is my hobby project, created for me to learn how a compiler works and how programs goes from source code to machine code.
 
 ### Platform support ###
 
@@ -83,7 +83,7 @@ Polymorphic Procedures [Part 1](https://www.youtube.com/watch?v=BwqeFrlSpuI) & [
 The goal is to make Cupcake as great as possible and to do that i need your help. If you find any problems/bugs, please report them and don't forget to send example code that demonstrates the problem. You can use the Github issue section or send me an email at [support@jonathanwase.se](mailto://support@jonathanwase.se) (use the email if you don't want the demonstration source code to be public).
 
 # Source Code? #
-For now I have decided to not release the source code. Why, because I don't know if it would be fair to Jonathan Blow (everyone creating their own version of JAI) and I am not very proud of the quality of the code. There is a huge amount of unnecessary code that could and should be removed, Cupcake v0.1-alpha is around 45k LOC. 
+For now I have decided to not release the source code. Why, because I don't know if it would be fair to Jonathan Blow and I am not very proud of the quality of the code. There is a huge amount of unnecessary code that could and should be removed, Cupcake v0.1-alpha is around 45k LOC. 
 
 # Licence #
 
@@ -108,8 +108,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
-- - - -
-
-####### English/Language #######
-I am not a native English speaker and would very much appreciate if you find any grammatical and/or spelling errors in this text, or in the program itself.
